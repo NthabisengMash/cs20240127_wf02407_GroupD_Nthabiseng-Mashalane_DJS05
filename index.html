@@ -3,12 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redux-inspired store</title>
+  <title>Tally App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
-  <h1>State of the tally counter</h1>
-  <p>Check the browser console for the state changes.</p>
 
-  <script> src="script.js" </script>
+  <h1>Tally Counter App</h1>
+  <div>
+    <button id="increment">Increment</button>
+    <button id="decrement">Decrement</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
